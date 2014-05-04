@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>Testando o Deploy do Chef</title>
+	<script type="text/javascript">
+		function changeProperties(element) {
+			if(element.style.width === '100%') {
+				element.style.height = '200px';
+				element.style.width = '200px';
+			} else {
+				element.style.height = '350px';
+				element.style.width = '100%';
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<h1>Arquivo [MODIFICADO] de Teste</h1>
+	<div style="background-color: gray; float: left; height: 200px; width: 200px;"></div>
+	<div style="background-color: gray; float: left; height: 200px; margin-left: 10px; width: 200px;"></div>
+	<div style="background-color: gray; float: left; height: 200px; margin-left: 10px; width: 200px;"></div>
+	<div style="background-color: gray; float: left; height: 200px; margin-left: 10px; width: 200px;"></div>
+	<div style="clear: both;"></div>
+	<div onclick="changeProperties(this);" style="background-color: gray; height: 350px; margin-top: 10px; width: 100%;"></div>
+	<h1>Fim do HTML [MODIFICADO]</h1>
+</body>
+</html>
